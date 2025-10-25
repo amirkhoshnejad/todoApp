@@ -9,9 +9,9 @@
     flex:1;
     text-align: center;
     margin: 10px;
-    background: rgb(255, 114, 159);
+    background: rgb(204, 230, 244);
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 40px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
 }
 .botton{
     font-size: 50px;
-    color: rgb(68, 207, 108);
-    background-color: rgb(98, 0, 179);
+    color: rgb(98, 0, 179);
+    background-color: rgb(255, 114, 159);
     cursor: pointer;
 }
