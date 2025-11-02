@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo project</title>
+    <title>Todo Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button id="addTaskBtn">Say something</button>
-    <input id="iputarray" type="text">
-    <div id="output"></div>
-
+    <div class="container">
+        <div class="column">
+            <div style="margin: 10px;">📝 My Todo List</div>
+            <div class="input-area">
+                <input id="iputarray" type="text" placeholder="Add a new task..." class="input">
+                <button id="addTaskBtn" class="botton">Add</button>
+            </div>
+            <div id="chill" style="display: block;">Nothing to do… time to chill!</div>
+            <div id="output"></div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
