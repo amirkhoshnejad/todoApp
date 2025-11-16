@@ -1,38 +1,72 @@
-body{
-    background: linear-gradient(135deg, #a2c2e1, #f6f7fb);
+body {
+  background: linear-gradient(135deg, #a2c2e1, #f6f7fb);
 }
 
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 98vh;
-    font-family:'Franklin Gothic Medium';
-    color: rgb(19, 7, 12);
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  font-family: "Franklin Gothic Medium";
+  color: rgb(19, 7, 12);
 }
 
-.column{
-    background: white;
-    border-radius: 10px;
-    font-size: 40px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+.column {
+  font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", cursive;
+  background: white;
+  border-radius: 10px;
+  font-size: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
-.botton{
-    font-size: 20px;   
-    cursor: pointer;
-    border-radius: 5px;
+.botton {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
-.input-area{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    gap: 8px;
+.input-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 8px;
 }
-.input{
-    border-radius: 5px;
+.input {
+  border-radius: 5px;
+}
+#output {
+  border-radius: 6px;
+  background: #a2c2e1;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.output-area {
+  display: flex;
+  flex-direction: column;
+}
+.hi {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  border-radius: 15px;
+  margin: 10px;
+}
+.hi .num {
+  background-color: #a2c2e1;
+  color: white;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hi .text {
+  background-color: #f6f7fb;
+  flex: 1;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
 }
